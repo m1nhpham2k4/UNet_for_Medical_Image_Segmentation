@@ -1,0 +1,11 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+opencv-python
+matplotlib
+Pillow
+tqdm
+scikit-learn
+scikit-image
+albumentations # thư viện augmentations rất phổ biến cho segmentation
+tensorboard # để log loss/metrics

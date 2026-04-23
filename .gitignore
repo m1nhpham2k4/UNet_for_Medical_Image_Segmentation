@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local datasets and generated splits
+dataset/
+CVC_ColonDB/
+CVC-ColonDB/
+SampleData/
+
+# Training outputs
+runs/
+checkpoints/
+weights/
+logs/
+tensorboard/
+events.out.tfevents*
+*.pt
+*.pth
+*.ckpt
+
+# Prediction and result outputs
+predictions/
+outputs/
+results/
+*.npy
+*.npz
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
